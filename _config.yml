@@ -17,11 +17,11 @@ avatar: https://rmbatchou.github.io/images/Rolande%20Odeniyi.png
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  #dribbble:
   email: rolandembatchou@yahoo.com
-  facebook:
-  flickr:
-  rss: # just type anything here for a working RSS icon
+  #facebook:
+  #flickr:
+  rss: true # just type anything here for a working RSS icon
 
 # Your website URL (e.g. http://ajstent.github.io)
 # Used for Sitemap.xml and your RSS feed
