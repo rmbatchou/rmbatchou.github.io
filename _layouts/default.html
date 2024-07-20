@@ -84,16 +84,41 @@
             color: #fff; /* Set footer text color to white */
         }
 
+        /* Project cards */
+        .project-cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row with margin */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
         /* Responsive adjustments */
         @media only screen and (max-width: 768px) {
-            .masthead {
+            .project-cards {
                 flex-direction: column;
                 align-items: center;
-                text-align: center;
             }
 
-            .site-avatar img {
-                margin-bottom: 10px;
+            .project-card {
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
     </style>
@@ -114,6 +139,20 @@
     </div>
 
     <div id="main" role="main" class="container">
+        <section id="about-project" class="project-cards">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lacus in sem rutrum, nec feugiat nisi finibus.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Sed ac purus sit amet nisl eleifend mollis. Fusce vel dui gravida, finibus elit nec, fermentum est.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Proin non mi vestibulum, dictum ipsum id, malesuada nulla. Nulla convallis risus in ante commodo, quis aliquet magna scelerisque.</p>
+            </div>
+        </section>
         {{ content }}
     </div>
 
