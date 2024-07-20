@@ -1,46 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    
+    <style>
+        /* Reset and base styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
 
-    {% include meta.html %}
+        /* Gradient background */
+        body {
+            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+            color: #fff;
+        }
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        /* Wrapper for masthead */
+        .wrapper-masthead {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+            padding: 20px 0;
+        }
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+        /* Container for content */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+        /* Header styles */
+        .masthead {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-  <body>
+        .site-avatar img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .site-info {
+            flex-grow: 1;
+        }
+
+        .site-name a,
+        .site-name a:visited,
+        .site-name a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .site-description {
+            margin-top: 5px;
+            color: #ccc;
+        }
+
+        /* Main content area */
+        #main {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Footer styles */
+        .wrapper-footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        /* Responsive adjustments */
+        @media only screen and (max-width: 768px) {
+            .masthead {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .site-avatar img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <div class="container">
+            <header class="masthead">
+                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="Site Avatar" /></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-        </header>
-      </div>
+                <div class="site-info">
+                    <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                    <p class="site-description">{{ site.description }}</p>
+                </div>
+            </header>
+        </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+        {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+        <div class="container">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+        </div>
     </div>
-
-  </body>
+</body>
 </html>
