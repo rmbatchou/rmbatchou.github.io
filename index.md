@@ -3,8 +3,12 @@ layout: default
 title: DREAM Project Site
 ---
 
-* TOC
-{:toc}
+## Table of Contents
+
+* [About Me](#about-me)
+* [About My Advisor](#about-my-advisor)
+* [About My Project](#about-my-project)
+* [My Blog](#my-blog)
 
 ## About Me
 
@@ -22,4 +26,4 @@ Project description goes here.
 
 ## My Blog
 
-[My Blog](blog.html)
+[Read my Blog](blog.html)
