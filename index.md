@@ -3,16 +3,9 @@ layout: default
 title: DREAM Project Site
 ---
 
-## Table of Contents
-
-* [About Me](#about-me)
-* [About My Advisor](#about-my-advisor)
-* [About My Project](#about-my-project)
-* [My Blog](#my-blog)
-
 ## About Me
 
-My info goes here.
+You will find me to be engaging, intellectually curious while approachable, with an open and amiable style of communication, providing mentorship and guidance to teams, seamlessly supporting company values and goals while bringing clear vision and energy to team discussions.
 
 ## About My Advisor
 
