@@ -72,18 +72,6 @@
             color: #000; /* Set text color to black */
         }
 
-        /* Footer styles */
-        .wrapper-footer {
-            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
-            padding: 20px 0;
-            margin-top: 20px;
-        }
-
-        .footer {
-            text-align: center;
-            color: #fff; /* Set footer text color to white */
-        }
-
         /* Project cards */
         .project-cards {
             display: flex;
@@ -107,6 +95,18 @@
         .project-card p {
             font-size: 14px;
             color: #666;
+        }
+
+        /* Footer styles */
+        .wrapper-footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #fff; /* Set footer text color to white */
         }
 
         /* Responsive adjustments */
@@ -139,7 +139,20 @@
     </div>
 
     <div id="main" role="main" class="container">
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>My info goes here.</p>
+        </section>
+
+        <section id="about-advisor">
+            <h2>About My Advisor</h2>
+            <p>Advisor info goes here.</p>
+        </section>
+
         <section id="about-project" class="project-cards">
+            <h2>About My Project</h2>
+            <p>Project description goes here.</p>
+
             <div class="project-card">
                 <h3>Project 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lacus in sem rutrum, nec feugiat nisi finibus.</p>
@@ -153,7 +166,16 @@
                 <p>Proin non mi vestibulum, dictum ipsum id, malesuada nulla. Nulla convallis risus in ante commodo, quis aliquet magna scelerisque.</p>
             </div>
         </section>
-        {{ content }}
+
+        <section id="my-blog">
+            <h2>My Blog</h2>
+            <p><a href="blog.html">Visit My Blog</a></p>
+        </section>
+
+        <section id="final-report">
+            <h2>My Final Report</h2>
+            <p><a href="files/finalreport.pdf">Download Final Report (PDF)</a></p>
+        </section>
     </div>
 
     <div class="wrapper-footer">
