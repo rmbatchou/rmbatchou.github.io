@@ -9,7 +9,7 @@ You will find me to be engaging, intellectually curious while approachable, with
 
 ## About My Advisor
 
-Professor Ilyas Ustun is a distinguished faculty member at DePaul University's School of Computing. His research spans the cutting-edge fields of **Data Analysis**, **Artificial Intelligence**, and **Big Sensed Data**. 🚀 For more information, visit his [Faculty Page](https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/faculty-info.aspx?fid=1462) 🌐.
+Professor Ilyas Ustun is a distinguished faculty member at DePaul University's School of Computing. His research spans the cutting-edge fields of **Data Analysis**, **Artificial Intelligence**, and **Big Sensed Data**. 🚀 For more information, visit his [Faculty Page](https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/faculty-info.aspx?fid=1462).
 
 ## About My Project
 
