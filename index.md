@@ -9,7 +9,7 @@ You will find me to be engaging, intellectually curious while approachable, with
 
 ## About My Advisor
 
-My advisor, [Advisor's Name], is a seasoned professional with a wealth of experience in [Advisor's Field/Area of Expertise]. Known for [Advisor's notable achievements or qualities], [Advisor's Name] brings a clear vision and energy to our discussions. Their approachable style of mentorship and guidance has been invaluable in helping me navigate and excel in my endeavors.
+Professor Ilyas Ustun is a distinguished faculty member at DePaul University's School of Computing. His research spans the cutting-edge fields of **Data Analysis**, **Artificial Intelligence**, and **Big Sensed Data**. 🚀 For more information, visit his [Faculty Page](https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/faculty-info.aspx?fid=1462) 🌐.
 
 ## About My Project
 
