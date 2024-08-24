@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hello</title>
+    
+    <style>
+        /* Reset and base styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #000; /* Set default text color to black */
+        }
 
+        /* Gradient background */
+        body {
+            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+        }
+
+        /* Wrapper for masthead */
+        .wrapper-masthead {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+            padding: 20px 0;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header styles */
+        .masthead {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-avatar img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .site-info {
+            flex-grow: 1;
+        }
+
+        .site-name a,
+        .site-name a:visited,
+        .site-name a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .site-description {
+            margin-top: 5px;
+            color: #ccc;
+        }
+
+        /* Main content area */
+        #main {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            color: #000; /* Set text color to black */
+        }
+
+        /* Footer styles */
+        .wrapper-footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            color: #fff; /* Set footer text color to white */
+        }
+
+        /* Responsive adjustments */
+        @media only screen and (max-width: 768px) {
+            .masthead {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .site-avatar img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead">
+                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="Site Avatar" /></a>
+
+                <div class="site-info">
+                    <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                    <p class="site-description">{{ site.description }}</p>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+        <h1> new page</h1>
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
