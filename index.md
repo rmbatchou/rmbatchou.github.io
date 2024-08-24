@@ -12,11 +12,24 @@ Hi, I'm **Sonya Rolande Odeniyi**! I am currently pursuing a **Master’s in Dat
 
 Professor Ilyas Ustun is a distinguished faculty member at DePaul University's School of Computing. His research spans the cutting-edge fields of **Data Analysis**, **Artificial Intelligence**, and **Big Sensed Data**. 🚀 For more information, visit his [Faculty Page](https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/faculty-info.aspx?fid=1462).
 
-## About My Project
+## About My Research Experience
 
-Currently, I am working on [Briefly describe your project]. This project aims to [Explain the objectives or goals of your project], with a focus on [Specify the key areas or outcomes you aim to achieve]. With the support and guidance of my advisor, I am confident that this project will contribute positively to [Relevant industry, community, or field].
+### **Project Focus**  
+- Investigate the impact of removing the race coefficient from the Kidney Donor Profile Index (KDPI) calculation, specifically focusing on African American/Black race, to improve health equity in kidney transplantation outcomes.
 
-[My Final Report](files/finalreport.pdf)
+### **Key Objectives**  
+- Assess the potential change in kidney transplant outcomes by recalculating KDPI scores without the race coefficient.
+- Analyze the effects on patient survival rates, kidney availability, and graft survival after the proposed policy change.
+- Explore the implications for health equity, aiming to reduce disparities in kidney transplantation by ensuring a fair evaluation of kidneys from Black donors.
+
+### **Data and Methodology**  
+- Use historical data from the United Network for Organ Sharing (UNOS) between 2000-2019.
+- Employ machine learning models (e.g., Random Forests, XGBoost) and statistical methods (e.g., Cox Proportional Hazards, Difference-in-Differences) for predictive analysis.
+- Implement data cleaning, feature selection, and dimensionality reduction techniques to optimize model performance.
+
+### **Significance**  
+- The research aims to inform policy changes that could enhance fairness in kidney allocation and ultimately improve patient outcomes by addressing systemic biases in current evaluation practices.
+
 
 ## My Blog
 
