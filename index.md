@@ -5,7 +5,8 @@ title: DREAM Project Site
 
 ## About Me
 
-You will find me to be engaging, intellectually curious while approachable, with an open and amiable style of communication, providing mentorship and guidance to teams, seamlessly supporting company values and goals while bringing clear vision and energy to team discussions.
+Hi, I'm **Sonya Rolande Odeniyi**! I am currently pursuing a **Master’s in Data Science** at DePaul University, Class of 2025 🎓. As a professional **Actuary**, I am passionate about uncovering insights through data and using predictive analytics to solve complex problems. 📊 Feel free to reach out to me at [rolandembatchou@yahoo.com](mailto:rolandembatchou@yahoo.com).
+
 
 ## About My Advisor
 
