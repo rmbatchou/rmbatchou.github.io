@@ -33,4 +33,4 @@ Professor Ilyas Ustun is a distinguished faculty member at DePaul University's S
 
 ## My Blog
 
-[Read my Blog](blog.html)
+[Read my Blog](https://rmbatchou.github.io/blog/)
