@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diving into Kidney Transplant Research - Literature Review Begins
+title: "Diving into Kidney Transplant Research - Literature Review Begins"
 ---
 
 This Blog Week, I began my journey by immersing myself in research papers related to kidney transplants and health equity. The aim was to gather insights on how existing models like the Kidney Donor Profile Index (KDPI) work and explore any biases present in them, particularly the race coefficient for African American/Black donors. The papers revealed various approaches, from machine learning to statistical methods, to predict kidney transplant outcomes. Understanding these models helped me frame my research focus and identify gaps that my work could address.
